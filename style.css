@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto', sans-serif;
+
+}
+body {
+
+    display: flex;
+}
+.navbar{
+    width: 250px;
+    height: 100vh;
+    padding: 30px;
+    font-size: 15px;
+    border-right: 1px solid #f9f9f9;
+    cursor:pointer;
+    
+}
+
+
+.navbar .logo img {
+    display: flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.category:hover{
+    background-color: #ccc;
+    border-radius: 9999px;
+}
+
+.category i{
+    margin-right: 10px;
+}
+
+.menu button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(31, 159, 245);
+    color:white;
+    border:none;
+    width: 200px;
+    height: 50px;
+    border-radius: 9999px;
+    margin-bottom: 10px;
+    
+}
+.my_profile{
+    margin-right: 10px;
+    display: flex;
+    font-size: 14px;
+}
+.my_profile img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile_detail i{
+    margin-left: 50px;
+}
+.mainbody {
+
+    width: 700px;
+   border-right: 1px solid #f9f9f9f9;
+
+}
+
+
+/* main style for timeline */
+.timeline-home {
+    margin: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f9f9f9;
+    position:sticky;
+
+}
+.timeline_input {
+   display: flex;
+    align-items: center;
+    
+    
+    
+}
+.timeline_input img{
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+    margin: 20px 10px 20px 10px;
+    
+}
+.timeline_input input{
+
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+}
+.tweet_live{
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid #f9f9f9;
+}
+.tweet_tags {
+  
+    margin-left: 65px;
+    color: rgb(31, 159, 245);
+}
+.tweet_tags i{
+    margin: 5px 5px 20px 5px;
+}
+.tweet_live button{
+    width: 80px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: rgb(31, 159, 245);
+    border: none;
+    margin-right: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+
+}
+.main_timeline{
+    margin: 15px;
+
+}
+.tweep{
+    
+    border-bottom: 1px solid #f9f9f9f9;
+    margin-top: 10px;
+}
+.active-tweet {
+    margin: 5px;
+    
+}
+.active-tweet img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    position:relative;
+
+}
+.tweep_avatar img{
+
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.tweet-set{
+    display: flex;
+    justify-content: space-between;
+}
+.action-tweet{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+    margin: 10px;
+}
+
+.sidebar{
+
+    width: calc(700px - 20vw);
+
+} 
+.search{
+    display: flex;
+    align-items: center;
+    background-color:  #f9f9f9;
+    margin: 10px 15px 10px 20px;
+    width: 300px;
+    height: 35px;
+    border-radius: 9999px;
+    padding: 10px 30px;
+
+    
+}   
+.search button{
+    border:none;
+   
+}
+.search input{
+    border: none;
+    background-color: #f9f9f9;
+    color: #ccc;
+    margin-left: 15px;
+}
+.trends_list{
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px;
+    background-color:#f9f9f9f9;
+    cursor: pointer;
+}
+.trends_list :hover{
+    background-color: #ccc;
+}
+.trends_head{
+
+
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 30px 10px 30px;
+}
+.trending_topic{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 10px 30px;
+    font-size: 12px;
+
+}
+.trending_name{
+    font-size: 14px;
+    font-weight: 500;
+}
+.tweet_topic{
+    color: grey
+}
+.num_likes{
+    color: grey;
+}
+.more_trends{
+    color: rgb(31, 159, 245); ;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
